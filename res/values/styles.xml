@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/appBar</item>
+        <item name="colorPrimaryDark">@color/statusBar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="menuStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/mainItem_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">30sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="childMenu">
+        <item name="android:layout_width">@dimen/navToPage_width</item>
+        <item name="android:layout_height">@dimen/navToPage_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:text">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="secondStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/secondItem_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:text">15sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+</resources>

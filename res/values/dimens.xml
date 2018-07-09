@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mainItem_height">100dp</dimen>
+    <dimen name="secondItem_height">50dp</dimen>
+    <dimen name="navToPage_height">40dp</dimen>
+    <dimen name="navToPage_width">110dp</dimen>
+    <dimen name="padding">15dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appBar">#333333</color>
+    <color name="statusBar">#4d4d4d</color>
+    <color name="appBackground">#333333</color>
+    <color name="artists">#99ffdd</color>
+    <color name="songs">#99ffbb</color>
+    <color name="playlists">#bbff99</color>
+</resources>

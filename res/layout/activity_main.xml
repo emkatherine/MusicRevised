@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/appBackground">
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/menuStyle"
+        android:text="Artists"
+        android:background="@color/artists"/>
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/menuStyle"
+        android:text="Songs"
+        android:background="@color/songs"/>
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/menuStyle"
+        android:text="Playlists"
+        android:background="@color/playlists"/>
+
+</LinearLayout>
